@@ -58,9 +58,6 @@ def novaEquipe(eqp):
                 continue
             else:
                 break
-        print(f"{pais}")
-        print(f"{pais2}")
-        print(f"{equipe}")
         abreviacao = str(input("Abreviação: ")).upper()
         grupo = str(input("Grupo: ")).upper()
         pais2.append(pais)
@@ -147,7 +144,7 @@ def numeroJogos(jgs):
                 contador += 1
             print(f"Número total de jogos salvos: {contador}")
     except FileNotFoundError:
-        print("O arquivo não existe. Digite a opção 2 para criar equipes e 3 para jogos!") 
+        print("Não existem jogos. Digite a opção 3 para criá-los!") 
 
 # OPCAO 5
 def numeroEquipes(eqp):
@@ -158,7 +155,7 @@ def numeroEquipes(eqp):
                 contador += 1
             print(f"Número total de equipes salvas: {contador}")
     except FileNotFoundError:
-        print("O arquivo não existe. Digite a opção 2 para criar equipes e 3 para jogos!") 
+        print("Não existem equipes. Digite a opção 2 para criá-las!") 
 
 # OPCAO 6
 def gravarDados(jgs, eqp):
