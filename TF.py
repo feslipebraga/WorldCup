@@ -15,7 +15,7 @@ while True:
         funcoes.novaEquipe(equipes)
         sleep(2)
     elif opcao == 3:
-        funcoes.novoJogo(jogos)
+        funcoes.novoJogo(jogos, equipes)
         sleep(2)
     elif opcao == 4:
         funcoes.numeroJogos(jogos)
